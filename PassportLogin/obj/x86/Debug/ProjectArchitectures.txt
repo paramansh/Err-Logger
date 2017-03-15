@@ -1,0 +1,1 @@
+C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\ErrLogger.csproj;x86
