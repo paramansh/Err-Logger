@@ -28,8 +28,7 @@
             <Button x:ConnectionId='9' x:Name="backButton" Content="Back" HorizontalAlignment="Center" Background="DodgerBlue"
                     Margin="0,30,0,0" VerticalAlignment="Top"                          Foreground="White"/>
         </StackPanel>
-        <Border BorderBrush="Black" BorderThickness="8" HorizontalAlignment="Center" Height="715" 
-                VerticalAlignment="Center" Width="1280"/>
+        
     </Grid>
 </Page>
 

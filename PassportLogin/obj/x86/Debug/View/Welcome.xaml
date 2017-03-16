@@ -27,8 +27,7 @@
             Background="Gray"
             HorizontalAlignment="Center"/>
         </StackPanel>
-        <Border BorderBrush="Black" BorderThickness="8" HorizontalAlignment="Center" Height="715" 
-                VerticalAlignment="Center" Width="1280"/>
+        
     </Grid>
 </Page>
 

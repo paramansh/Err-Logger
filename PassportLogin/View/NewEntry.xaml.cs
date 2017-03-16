@@ -29,8 +29,21 @@ namespace ErrorLog.View
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-   
-        public static class GlobalsConc
+
+    public static class GlobalString
+    {
+        // parameterless constructor required for static class
+        static GlobalString() { GlobString = ""; } // default value
+
+        // public get, and private set for strict access control
+        public static string GlobString { get; private set; }
+        public static void SetGlobalString(string newString)
+        {
+            GlobString = newString;
+        }
+
+    }
+    public static class GlobalsConc
         {
             // parameterless constructor required for static class
             static GlobalsConc() { GlobalInt = 0; } // default value
@@ -75,6 +88,8 @@ namespace ErrorLog.View
         int conceptualMist = 0;
         int sillyMist = 0;
         int otherMist = 0;
+        string checkString = "";
+        string str = "";
         public NewEntry()
         {
             this.InitializeComponent();
@@ -87,6 +102,10 @@ namespace ErrorLog.View
 
         private void submitbutton_Click(object sender, RoutedEventArgs e)
         {
+            checkString = textBox.Text;
+            str = GlobalString.GlobString;
+            str = str + ". " + checkString;
+            GlobalString.SetGlobalString(str);
             Frame.Navigate(typeof(NewEntry));
             //textBox.Text = "Enter your Mistake";
            
@@ -108,6 +127,10 @@ namespace ErrorLog.View
 
         private void graphbutton_Click(object sender, RoutedEventArgs e)
         {
+            checkString = textBox.Text;
+            str = GlobalString.GlobString;
+            str = str + ". " + checkString;
+            GlobalString.SetGlobalString(str);
             Frame.Navigate(typeof(BlankPage1));
         }
 

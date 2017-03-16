@@ -156,7 +156,7 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[47];
+            _typeNameTable = new string[51];
             _typeNameTable[0] = "ErrorLog.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -198,14 +198,18 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
             _typeNameTable[38] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis";
             _typeNameTable[39] = "System.Nullable`1<Int32>";
             _typeNameTable[40] = "ErrorLog.View.BlankPage1";
-            _typeNameTable[41] = "ErrorLog.View.Login";
-            _typeNameTable[42] = "ErrorLog.View.NewEntry";
-            _typeNameTable[43] = "ErrorLog.View.PassportRegister";
-            _typeNameTable[44] = "ErrorLog.View.SubmittedForm";
-            _typeNameTable[45] = "ErrorLog.View.UserSelection";
-            _typeNameTable[46] = "ErrorLog.View.Welcome";
+            _typeNameTable[41] = "System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>";
+            _typeNameTable[42] = "System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>";
+            _typeNameTable[43] = "ErrorLog.View.BlankPage1.Kpcol";
+            _typeNameTable[44] = "ErrorLog.View.BlankPage1.Keypharesec";
+            _typeNameTable[45] = "ErrorLog.View.Login";
+            _typeNameTable[46] = "ErrorLog.View.NewEntry";
+            _typeNameTable[47] = "ErrorLog.View.PassportRegister";
+            _typeNameTable[48] = "ErrorLog.View.SubmittedForm";
+            _typeNameTable[49] = "ErrorLog.View.UserSelection";
+            _typeNameTable[50] = "ErrorLog.View.Welcome";
 
-            _typeTable = new global::System.Type[47];
+            _typeTable = new global::System.Type[51];
             _typeTable[0] = typeof(global::ErrorLog.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -247,12 +251,16 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
             _typeTable[38] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis);
             _typeTable[39] = typeof(global::System.Nullable<global::System.Int32>);
             _typeTable[40] = typeof(global::ErrorLog.View.BlankPage1);
-            _typeTable[41] = typeof(global::ErrorLog.View.Login);
-            _typeTable[42] = typeof(global::ErrorLog.View.NewEntry);
-            _typeTable[43] = typeof(global::ErrorLog.View.PassportRegister);
-            _typeTable[44] = typeof(global::ErrorLog.View.SubmittedForm);
-            _typeTable[45] = typeof(global::ErrorLog.View.UserSelection);
-            _typeTable[46] = typeof(global::ErrorLog.View.Welcome);
+            _typeTable[41] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>);
+            _typeTable[42] = typeof(global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>);
+            _typeTable[43] = typeof(global::ErrorLog.View.BlankPage1.Kpcol);
+            _typeTable[44] = typeof(global::ErrorLog.View.BlankPage1.Keypharesec);
+            _typeTable[45] = typeof(global::ErrorLog.View.Login);
+            _typeTable[46] = typeof(global::ErrorLog.View.NewEntry);
+            _typeTable[47] = typeof(global::ErrorLog.View.PassportRegister);
+            _typeTable[48] = typeof(global::ErrorLog.View.SubmittedForm);
+            _typeTable[49] = typeof(global::ErrorLog.View.UserSelection);
+            _typeTable[50] = typeof(global::ErrorLog.View.Welcome);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -300,12 +308,14 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
         private object Activate_23_PieSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries(); }
         private object Activate_34_ColumnSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries(); }
         private object Activate_40_BlankPage1() { return new global::ErrorLog.View.BlankPage1(); }
-        private object Activate_41_Login() { return new global::ErrorLog.View.Login(); }
-        private object Activate_42_NewEntry() { return new global::ErrorLog.View.NewEntry(); }
-        private object Activate_43_PassportRegister() { return new global::ErrorLog.View.PassportRegister(); }
-        private object Activate_44_SubmittedForm() { return new global::ErrorLog.View.SubmittedForm(); }
-        private object Activate_45_UserSelection() { return new global::ErrorLog.View.UserSelection(); }
-        private object Activate_46_Welcome() { return new global::ErrorLog.View.Welcome(); }
+        private object Activate_41_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
+        private object Activate_42_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
+        private object Activate_45_Login() { return new global::ErrorLog.View.Login(); }
+        private object Activate_46_NewEntry() { return new global::ErrorLog.View.NewEntry(); }
+        private object Activate_47_PassportRegister() { return new global::ErrorLog.View.PassportRegister(); }
+        private object Activate_48_SubmittedForm() { return new global::ErrorLog.View.SubmittedForm(); }
+        private object Activate_49_UserSelection() { return new global::ErrorLog.View.UserSelection(); }
+        private object Activate_50_Welcome() { return new global::ErrorLog.View.Welcome(); }
         private void VectorAdd_5_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>)instance;
@@ -358,6 +368,18 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.ResourceDictionary>)instance;
             var newItem = (global::Windows.UI.Xaml.ResourceDictionary)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_41_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::ErrorLog.View.BlankPage1.Kpcol>)instance;
+            var newItem = (global::ErrorLog.View.BlankPage1.Kpcol)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_42_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::ErrorLog.View.BlankPage1.Kpcol>)instance;
+            var newItem = (global::ErrorLog.View.BlankPage1.Kpcol)item;
             collection.Add(newItem);
         }
 
@@ -635,48 +657,77 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
             case 40:   //  ErrorLog.View.BlankPage1
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_40_BlankPage1;
+                userType.AddMemberName("KeyPharseResults");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  ErrorLog.View.Login
-                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_Login;
+            case 41:   //  System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>"));
+                userType.CollectionAdd = VectorAdd_41_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 42:   //  System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_42_Collection;
+                userType.CollectionAdd = VectorAdd_42_Collection;
+                xamlType = userType;
+                break;
+
+            case 43:   //  ErrorLog.View.BlankPage1.Kpcol
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("kpco");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  ErrorLog.View.NewEntry
-                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_NewEntry;
+            case 44:   //  ErrorLog.View.BlankPage1.Keypharesec
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  ErrorLog.View.PassportRegister
+            case 45:   //  ErrorLog.View.Login
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_43_PassportRegister;
+                userType.Activator = Activate_45_Login;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  ErrorLog.View.SubmittedForm
+            case 46:   //  ErrorLog.View.NewEntry
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_44_SubmittedForm;
+                userType.Activator = Activate_46_NewEntry;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  ErrorLog.View.UserSelection
+            case 47:   //  ErrorLog.View.PassportRegister
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_UserSelection;
+                userType.Activator = Activate_47_PassportRegister;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  ErrorLog.View.Welcome
+            case 48:   //  ErrorLog.View.SubmittedForm
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_46_Welcome;
+                userType.Activator = Activate_48_SubmittedForm;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 49:   //  ErrorLog.View.UserSelection
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_49_UserSelection;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 50:   //  ErrorLog.View.Welcome
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_50_Welcome;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1056,6 +1107,26 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes)instance;
             return that.GlobalSeriesIndex;
         }
+        private object get_36_BlankPage1_KeyPharseResults(object instance)
+        {
+            var that = (global::ErrorLog.View.BlankPage1)instance;
+            return that.KeyPharseResults;
+        }
+        private void set_36_BlankPage1_KeyPharseResults(object instance, object Value)
+        {
+            var that = (global::ErrorLog.View.BlankPage1)instance;
+            that.KeyPharseResults = (global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>)Value;
+        }
+        private object get_37_Kpcol_kpco(object instance)
+        {
+            var that = (global::ErrorLog.View.BlankPage1.Kpcol)instance;
+            return that.kpco;
+        }
+        private void set_37_Kpcol_kpco(object instance, object Value)
+        {
+            var that = (global::ErrorLog.View.BlankPage1.Kpcol)instance;
+            that.kpco = (global::ErrorLog.View.BlankPage1.Keypharesec)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -1299,6 +1370,18 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_35_DataPointSingleSeriesWithAxes_GlobalSeriesIndex;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "ErrorLog.View.BlankPage1.KeyPharseResults":
+                userType = (global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ErrorLog.View.BlankPage1");
+                xamlMember = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlMember(this, "KeyPharseResults", "System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>");
+                xamlMember.Getter = get_36_BlankPage1_KeyPharseResults;
+                xamlMember.Setter = set_36_BlankPage1_KeyPharseResults;
+                break;
+            case "ErrorLog.View.BlankPage1.Kpcol.kpco":
+                userType = (global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ErrorLog.View.BlankPage1.Kpcol");
+                xamlMember = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlMember(this, "kpco", "ErrorLog.View.BlankPage1.Keypharesec");
+                xamlMember.Getter = get_37_Kpcol_kpco;
+                xamlMember.Setter = set_37_Kpcol_kpco;
                 break;
             }
             return xamlMember;
