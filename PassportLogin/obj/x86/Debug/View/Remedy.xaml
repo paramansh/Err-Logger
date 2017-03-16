@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="PassportLogin.View.Remedy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassportLogin.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <StackPanel Orientation="Vertical" Margin="0,20,0,0">
+            <TextBlock x:ConnectionId='1' x:Name="Title" Text="Remidial Measures" FontSize="40" TextAlignment="Center" Foreground="Red" 
+                        FontWeight="Bold" />
+            <Button x:ConnectionId='2' x:Name="Conceptual" Content="Conceptual Shortcoming" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10"                         />
+            <Button x:ConnectionId='3' x:Name="Calculation" Content="Calculation Error" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10"/>
+            <Button x:ConnectionId='4' x:Name="Careless" Content="Careless Oversight" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10"/>
+            <Button x:ConnectionId='5' x:Name="Recall" Content="Shortcoming in Recall" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10"/>
+            <Button x:ConnectionId='6' x:Name="Time" Content="Time Constraint" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10"/>
+            <TextBlock x:ConnectionId='7' x:Name="Solution" Text=""  TextAlignment="Center"  
+                        Margin="0,20" />
+        </StackPanel>
+        
+
+    </Grid>
+</Page>
+

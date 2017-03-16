@@ -44,9 +44,11 @@ namespace ErrorLog.View
         {
            
             List<firstGraph> stSource = new List<firstGraph>();
-            stSource.Add(new firstGraph() { Name = "Silly",Amount = GlobalsSil.GlobalInt });
-            stSource.Add(new firstGraph() { Name = "Conceptual", Amount = GlobalsConc.GlobalInt });
-            stSource.Add(new firstGraph() { Name = "Others", Amount = GlobalsOth.GlobalInt });
+            stSource.Add(new firstGraph() { Name = "Cal Err",Amount = GlobalsSil.GlobalInt });
+            stSource.Add(new firstGraph() { Name = "Concept", Amount = GlobalsConc.GlobalInt });
+            stSource.Add(new firstGraph() { Name = "Oversight", Amount = GlobalsOth.GlobalInt });
+            stSource.Add(new firstGraph() { Name = "Recall", Amount = GlobalsRcl.GlobalInt });
+            stSource.Add(new firstGraph() { Name = "Time", Amount = GlobalsTime.GlobalInt });
             stSource.Add(new firstGraph() { Name = "", Amount = 0 });
             (ColumnChart.Series[0] as ColumnSeries).ItemsSource = stSource;
             (PieChart.Series[0] as PieSeries).ItemsSource = stSource;
@@ -137,6 +139,16 @@ namespace ErrorLog.View
                 }
             }
             return phrases;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(NewEntry));
+        }
+
+        private void remedialbutton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SubmittedForm));
         }
     }
 

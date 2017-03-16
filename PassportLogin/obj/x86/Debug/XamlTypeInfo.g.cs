@@ -156,111 +156,115 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[51];
+            _typeNameTable = new string[53];
             _typeNameTable[0] = "ErrorLog.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart";
-            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[5] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>";
-            _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries";
-            _typeNameTable[8] = "System.Collections.ObjectModel.ObservableCollection`1<Object>";
-            _typeNameTable[9] = "System.Collections.ObjectModel.Collection`1<Object>";
-            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[11] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis";
-            _typeNameTable[12] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation";
-            _typeNameTable[13] = "System.Enum";
-            _typeNameTable[14] = "System.ValueType";
-            _typeNameTable[15] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
-            _typeNameTable[16] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
-            _typeNameTable[17] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener";
-            _typeNameTable[18] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[19] = "System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[20] = "Windows.UI.Xaml.Style";
-            _typeNameTable[21] = "System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>";
-            _typeNameTable[22] = "Windows.UI.Xaml.ResourceDictionary";
-            _typeNameTable[23] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries";
-            _typeNameTable[24] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries";
-            _typeNameTable[25] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Series";
-            _typeNameTable[26] = "String";
-            _typeNameTable[27] = "Windows.UI.Xaml.Data.Binding";
-            _typeNameTable[28] = "System.Collections.IEnumerable";
-            _typeNameTable[29] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence";
-            _typeNameTable[30] = "Windows.UI.Xaml.Media.Animation.EasingFunctionBase";
-            _typeNameTable[31] = "Boolean";
-            _typeNameTable[32] = "TimeSpan";
-            _typeNameTable[33] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost";
-            _typeNameTable[34] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries";
-            _typeNameTable[35] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>";
-            _typeNameTable[36] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes";
-            _typeNameTable[37] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes";
-            _typeNameTable[38] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis";
-            _typeNameTable[39] = "System.Nullable`1<Int32>";
-            _typeNameTable[40] = "ErrorLog.View.BlankPage1";
-            _typeNameTable[41] = "System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>";
-            _typeNameTable[42] = "System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>";
-            _typeNameTable[43] = "ErrorLog.View.BlankPage1.Kpcol";
-            _typeNameTable[44] = "ErrorLog.View.BlankPage1.Keypharesec";
-            _typeNameTable[45] = "ErrorLog.View.Login";
-            _typeNameTable[46] = "ErrorLog.View.NewEntry";
-            _typeNameTable[47] = "ErrorLog.View.PassportRegister";
-            _typeNameTable[48] = "ErrorLog.View.SubmittedForm";
-            _typeNameTable[49] = "ErrorLog.View.UserSelection";
-            _typeNameTable[50] = "ErrorLog.View.Welcome";
+            _typeNameTable[3] = "PassportLogin.Models.BlankPage2";
+            _typeNameTable[4] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart";
+            _typeNameTable[5] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[6] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>";
+            _typeNameTable[7] = "Object";
+            _typeNameTable[8] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries";
+            _typeNameTable[9] = "System.Collections.ObjectModel.ObservableCollection`1<Object>";
+            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<Object>";
+            _typeNameTable[11] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[12] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis";
+            _typeNameTable[13] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation";
+            _typeNameTable[14] = "System.Enum";
+            _typeNameTable[15] = "System.ValueType";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
+            _typeNameTable[17] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
+            _typeNameTable[18] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener";
+            _typeNameTable[19] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[20] = "System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[21] = "Windows.UI.Xaml.Style";
+            _typeNameTable[22] = "System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>";
+            _typeNameTable[23] = "Windows.UI.Xaml.ResourceDictionary";
+            _typeNameTable[24] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries";
+            _typeNameTable[25] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries";
+            _typeNameTable[26] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Series";
+            _typeNameTable[27] = "String";
+            _typeNameTable[28] = "Windows.UI.Xaml.Data.Binding";
+            _typeNameTable[29] = "System.Collections.IEnumerable";
+            _typeNameTable[30] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence";
+            _typeNameTable[31] = "Windows.UI.Xaml.Media.Animation.EasingFunctionBase";
+            _typeNameTable[32] = "Boolean";
+            _typeNameTable[33] = "TimeSpan";
+            _typeNameTable[34] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost";
+            _typeNameTable[35] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries";
+            _typeNameTable[36] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>";
+            _typeNameTable[37] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes";
+            _typeNameTable[38] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes";
+            _typeNameTable[39] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis";
+            _typeNameTable[40] = "System.Nullable`1<Int32>";
+            _typeNameTable[41] = "ErrorLog.View.BlankPage1";
+            _typeNameTable[42] = "System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>";
+            _typeNameTable[43] = "System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>";
+            _typeNameTable[44] = "ErrorLog.View.BlankPage1.Kpcol";
+            _typeNameTable[45] = "ErrorLog.View.BlankPage1.Keypharesec";
+            _typeNameTable[46] = "ErrorLog.View.Login";
+            _typeNameTable[47] = "ErrorLog.View.NewEntry";
+            _typeNameTable[48] = "ErrorLog.View.PassportRegister";
+            _typeNameTable[49] = "PassportLogin.View.Remedy";
+            _typeNameTable[50] = "ErrorLog.View.SubmittedForm";
+            _typeNameTable[51] = "ErrorLog.View.UserSelection";
+            _typeNameTable[52] = "ErrorLog.View.Welcome";
 
-            _typeTable = new global::System.Type[51];
+            _typeTable = new global::System.Type[53];
             _typeTable[0] = typeof(global::ErrorLog.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[5] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>);
-            _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries);
-            _typeTable[8] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>);
-            _typeTable[9] = typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>);
-            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[11] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis);
-            _typeTable[12] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation);
-            _typeTable[13] = typeof(global::System.Enum);
-            _typeTable[14] = typeof(global::System.ValueType);
-            _typeTable[15] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
-            _typeTable[16] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
-            _typeTable[17] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener);
-            _typeTable[18] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[19] = typeof(global::System.Collections.ObjectModel.ReadOnlyCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[20] = typeof(global::Windows.UI.Xaml.Style);
-            _typeTable[21] = typeof(global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>);
-            _typeTable[22] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
-            _typeTable[23] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries);
-            _typeTable[24] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries);
-            _typeTable[25] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Series);
-            _typeTable[26] = typeof(global::System.String);
-            _typeTable[27] = typeof(global::Windows.UI.Xaml.Data.Binding);
-            _typeTable[28] = typeof(global::System.Collections.IEnumerable);
-            _typeTable[29] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence);
-            _typeTable[30] = typeof(global::Windows.UI.Xaml.Media.Animation.EasingFunctionBase);
-            _typeTable[31] = typeof(global::System.Boolean);
-            _typeTable[32] = typeof(global::System.TimeSpan);
-            _typeTable[33] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost);
-            _typeTable[34] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries);
-            _typeTable[35] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>);
-            _typeTable[36] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes);
-            _typeTable[37] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes);
-            _typeTable[38] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis);
-            _typeTable[39] = typeof(global::System.Nullable<global::System.Int32>);
-            _typeTable[40] = typeof(global::ErrorLog.View.BlankPage1);
-            _typeTable[41] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>);
-            _typeTable[42] = typeof(global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>);
-            _typeTable[43] = typeof(global::ErrorLog.View.BlankPage1.Kpcol);
-            _typeTable[44] = typeof(global::ErrorLog.View.BlankPage1.Keypharesec);
-            _typeTable[45] = typeof(global::ErrorLog.View.Login);
-            _typeTable[46] = typeof(global::ErrorLog.View.NewEntry);
-            _typeTable[47] = typeof(global::ErrorLog.View.PassportRegister);
-            _typeTable[48] = typeof(global::ErrorLog.View.SubmittedForm);
-            _typeTable[49] = typeof(global::ErrorLog.View.UserSelection);
-            _typeTable[50] = typeof(global::ErrorLog.View.Welcome);
+            _typeTable[3] = typeof(global::PassportLogin.Models.BlankPage2);
+            _typeTable[4] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[6] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>);
+            _typeTable[7] = typeof(global::System.Object);
+            _typeTable[8] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries);
+            _typeTable[9] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>);
+            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>);
+            _typeTable[11] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[12] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis);
+            _typeTable[13] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation);
+            _typeTable[14] = typeof(global::System.Enum);
+            _typeTable[15] = typeof(global::System.ValueType);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
+            _typeTable[17] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
+            _typeTable[18] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener);
+            _typeTable[19] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[20] = typeof(global::System.Collections.ObjectModel.ReadOnlyCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[21] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[22] = typeof(global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
+            _typeTable[24] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries);
+            _typeTable[25] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries);
+            _typeTable[26] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Series);
+            _typeTable[27] = typeof(global::System.String);
+            _typeTable[28] = typeof(global::Windows.UI.Xaml.Data.Binding);
+            _typeTable[29] = typeof(global::System.Collections.IEnumerable);
+            _typeTable[30] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence);
+            _typeTable[31] = typeof(global::Windows.UI.Xaml.Media.Animation.EasingFunctionBase);
+            _typeTable[32] = typeof(global::System.Boolean);
+            _typeTable[33] = typeof(global::System.TimeSpan);
+            _typeTable[34] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost);
+            _typeTable[35] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries);
+            _typeTable[36] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>);
+            _typeTable[37] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes);
+            _typeTable[38] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes);
+            _typeTable[39] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis);
+            _typeTable[40] = typeof(global::System.Nullable<global::System.Int32>);
+            _typeTable[41] = typeof(global::ErrorLog.View.BlankPage1);
+            _typeTable[42] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>);
+            _typeTable[43] = typeof(global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>);
+            _typeTable[44] = typeof(global::ErrorLog.View.BlankPage1.Kpcol);
+            _typeTable[45] = typeof(global::ErrorLog.View.BlankPage1.Keypharesec);
+            _typeTable[46] = typeof(global::ErrorLog.View.Login);
+            _typeTable[47] = typeof(global::ErrorLog.View.NewEntry);
+            _typeTable[48] = typeof(global::ErrorLog.View.PassportRegister);
+            _typeTable[49] = typeof(global::PassportLogin.View.Remedy);
+            _typeTable[50] = typeof(global::ErrorLog.View.SubmittedForm);
+            _typeTable[51] = typeof(global::ErrorLog.View.UserSelection);
+            _typeTable[52] = typeof(global::ErrorLog.View.Welcome);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -296,39 +300,35 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::ErrorLog.MainPage(); }
-        private object Activate_3_Chart() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart(); }
-        private object Activate_5_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>(); }
-        private object Activate_8_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
-        private object Activate_9_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.Object>(); }
-        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
-        private object Activate_15_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
-        private object Activate_16_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
-        private object Activate_18_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
-        private object Activate_21_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>(); }
-        private object Activate_23_PieSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries(); }
-        private object Activate_34_ColumnSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries(); }
-        private object Activate_40_BlankPage1() { return new global::ErrorLog.View.BlankPage1(); }
-        private object Activate_41_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
-        private object Activate_42_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
-        private object Activate_45_Login() { return new global::ErrorLog.View.Login(); }
-        private object Activate_46_NewEntry() { return new global::ErrorLog.View.NewEntry(); }
-        private object Activate_47_PassportRegister() { return new global::ErrorLog.View.PassportRegister(); }
-        private object Activate_48_SubmittedForm() { return new global::ErrorLog.View.SubmittedForm(); }
-        private object Activate_49_UserSelection() { return new global::ErrorLog.View.UserSelection(); }
-        private object Activate_50_Welcome() { return new global::ErrorLog.View.Welcome(); }
-        private void VectorAdd_5_Collection(object instance, object item)
+        private object Activate_3_BlankPage2() { return new global::PassportLogin.Models.BlankPage2(); }
+        private object Activate_4_Chart() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart(); }
+        private object Activate_6_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>(); }
+        private object Activate_9_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
+        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.Object>(); }
+        private object Activate_11_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
+        private object Activate_16_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
+        private object Activate_17_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
+        private object Activate_19_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
+        private object Activate_22_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>(); }
+        private object Activate_24_PieSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries(); }
+        private object Activate_35_ColumnSeries() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries(); }
+        private object Activate_41_BlankPage1() { return new global::ErrorLog.View.BlankPage1(); }
+        private object Activate_42_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
+        private object Activate_43_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ErrorLog.View.BlankPage1.Kpcol>(); }
+        private object Activate_46_Login() { return new global::ErrorLog.View.Login(); }
+        private object Activate_47_NewEntry() { return new global::ErrorLog.View.NewEntry(); }
+        private object Activate_48_PassportRegister() { return new global::ErrorLog.View.PassportRegister(); }
+        private object Activate_49_Remedy() { return new global::PassportLogin.View.Remedy(); }
+        private object Activate_50_SubmittedForm() { return new global::ErrorLog.View.SubmittedForm(); }
+        private object Activate_51_UserSelection() { return new global::ErrorLog.View.UserSelection(); }
+        private object Activate_52_Welcome() { return new global::ErrorLog.View.Welcome(); }
+        private void VectorAdd_6_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_8_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
-            var newItem = (global::System.Object)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_9_Collection(object instance, object item)
+        private void VectorAdd_9_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
@@ -336,47 +336,53 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
         }
         private void VectorAdd_10_Collection(object instance, object item)
         {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_11_Collection(object instance, object item)
+        {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_15_ObservableCollection(object instance, object item)
+        private void VectorAdd_16_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_16_Collection(object instance, object item)
+        private void VectorAdd_17_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_18_ObservableCollection(object instance, object item)
+        private void VectorAdd_19_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_19_ReadOnlyCollection(object instance, object item)
+        private void VectorAdd_20_ReadOnlyCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_21_Collection(object instance, object item)
+        private void VectorAdd_22_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.ResourceDictionary>)instance;
             var newItem = (global::Windows.UI.Xaml.ResourceDictionary)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_41_ObservableCollection(object instance, object item)
+        private void VectorAdd_42_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ErrorLog.View.BlankPage1.Kpcol>)instance;
             var newItem = (global::ErrorLog.View.BlankPage1.Kpcol)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_42_Collection(object instance, object item)
+        private void VectorAdd_43_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ErrorLog.View.BlankPage1.Kpcol>)instance;
             var newItem = (global::ErrorLog.View.BlankPage1.Kpcol)item;
@@ -408,9 +414,16 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart
+            case 3:   //  PassportLogin.Models.BlankPage2
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_BlankPage2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_3_Chart;
+                userType.Activator = Activate_4_Chart;
                 userType.SetContentPropertyName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Series");
                 userType.AddMemberName("Series");
                 userType.AddMemberName("Axes");
@@ -426,49 +439,49 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  Windows.UI.Xaml.Controls.Control
+            case 5:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>
+            case 6:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_5_Collection;
+                userType.CollectionAdd = VectorAdd_6_Collection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Object
+            case 7:   //  Object
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries
+            case 8:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.AddMemberName("LegendItems");
                 xamlType = userType;
                 break;
 
-            case 8:   //  System.Collections.ObjectModel.ObservableCollection`1<Object>
+            case 9:   //  System.Collections.ObjectModel.ObservableCollection`1<Object>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Object>"));
-                userType.CollectionAdd = VectorAdd_8_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_9_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 9:   //  System.Collections.ObjectModel.Collection`1<Object>
-                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_9_Collection;
-                userType.CollectionAdd = VectorAdd_9_Collection;
-                xamlType = userType;
-                break;
-
-            case 10:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 10:   //  System.Collections.ObjectModel.Collection`1<Object>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_10_Collection;
                 userType.CollectionAdd = VectorAdd_10_Collection;
                 xamlType = userType;
                 break;
 
-            case 11:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis
+            case 11:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_11_Collection;
+                userType.CollectionAdd = VectorAdd_11_Collection;
+                xamlType = userType;
+                break;
+
+            case 12:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.AddMemberName("Orientation");
                 userType.AddMemberName("RegisteredListeners");
@@ -476,7 +489,7 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation
+            case 13:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation.None);
                 userType.AddEnumValue("X", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation.X);
@@ -484,72 +497,72 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 13:   //  System.Enum
+            case 14:   //  System.Enum
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 14:   //  System.ValueType
+            case 15:   //  System.ValueType
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 15:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
+            case 16:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>"));
-                userType.CollectionAdd = VectorAdd_15_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_16_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
+            case 17:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_16_Collection;
-                userType.CollectionAdd = VectorAdd_16_Collection;
+                userType.Activator = Activate_17_Collection;
+                userType.CollectionAdd = VectorAdd_17_Collection;
                 xamlType = userType;
                 break;
 
-            case 17:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener
+            case 18:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 19:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>"));
-                userType.CollectionAdd = VectorAdd_18_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_19_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 20:   //  System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_19_ReadOnlyCollection;
+                userType.CollectionAdd = VectorAdd_20_ReadOnlyCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Windows.UI.Xaml.Style
+            case 21:   //  Windows.UI.Xaml.Style
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>
+            case 22:   //  System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_21_Collection;
+                userType.CollectionAdd = VectorAdd_22_Collection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Windows.UI.Xaml.ResourceDictionary
+            case 23:   //  Windows.UI.Xaml.ResourceDictionary
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries
+            case 24:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries"));
-                userType.Activator = Activate_23_PieSeries;
+                userType.Activator = Activate_24_PieSeries;
                 userType.AddMemberName("Palette");
                 xamlType = userType;
                 break;
 
-            case 24:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries
+            case 25:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Series"));
                 userType.AddMemberName("IndependentValuePath");
                 userType.AddMemberName("DependentValuePath");
@@ -566,7 +579,7 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Series
+            case 26:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Series
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
                 userType.AddMemberName("Title");
                 userType.AddMemberName("SeriesHost");
@@ -574,21 +587,21 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 26:   //  String
+            case 27:   //  String
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  Windows.UI.Xaml.Data.Binding
+            case 28:   //  Windows.UI.Xaml.Data.Binding
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 28:   //  System.Collections.IEnumerable
+            case 29:   //  System.Collections.IEnumerable
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 29:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence
+            case 30:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Simultaneous", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence.Simultaneous);
                 userType.AddEnumValue("FirstToLast", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AnimationSequence.FirstToLast);
@@ -596,33 +609,33 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 30:   //  Windows.UI.Xaml.Media.Animation.EasingFunctionBase
+            case 31:   //  Windows.UI.Xaml.Media.Animation.EasingFunctionBase
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  Boolean
+            case 32:   //  Boolean
                 xamlType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 32:   //  TimeSpan
+            case 33:   //  TimeSpan
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 33:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost
+            case 34:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeriesHost
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries
+            case 35:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnSeries
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>"));
-                userType.Activator = Activate_34_ColumnSeries;
+                userType.Activator = Activate_35_ColumnSeries;
                 xamlType = userType;
                 break;
 
-            case 35:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>
+            case 36:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnBarBaseSeries`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ColumnDataPoint>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes"));
                 userType.AddMemberName("DependentRangeAxis");
                 userType.AddMemberName("IndependentAxis");
@@ -631,103 +644,110 @@ namespace PassportLogin.ErrLogger_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 36:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes
+            case 37:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSingleSeriesWithAxes
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes"));
                 userType.AddMemberName("GlobalSeriesIndex");
                 xamlType = userType;
                 break;
 
-            case 37:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes
+            case 38:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeriesWithAxes
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.DataPointSeries"));
                 xamlType = userType;
                 break;
 
-            case 38:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis
+            case 39:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IRangeAxis
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 39:   //  System.Nullable`1<Int32>
+            case 40:   //  System.Nullable`1<Int32>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 40:   //  ErrorLog.View.BlankPage1
+            case 41:   //  ErrorLog.View.BlankPage1
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_40_BlankPage1;
+                userType.Activator = Activate_41_BlankPage1;
                 userType.AddMemberName("KeyPharseResults");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>
+            case 42:   //  System.Collections.ObjectModel.ObservableCollection`1<ErrorLog.View.BlankPage1.Kpcol>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>"));
-                userType.CollectionAdd = VectorAdd_41_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_42_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>
+            case 43:   //  System.Collections.ObjectModel.Collection`1<ErrorLog.View.BlankPage1.Kpcol>
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_42_Collection;
-                userType.CollectionAdd = VectorAdd_42_Collection;
+                userType.Activator = Activate_43_Collection;
+                userType.CollectionAdd = VectorAdd_43_Collection;
                 xamlType = userType;
                 break;
 
-            case 43:   //  ErrorLog.View.BlankPage1.Kpcol
+            case 44:   //  ErrorLog.View.BlankPage1.Kpcol
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("kpco");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  ErrorLog.View.BlankPage1.Keypharesec
+            case 45:   //  ErrorLog.View.BlankPage1.Keypharesec
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  ErrorLog.View.Login
+            case 46:   //  ErrorLog.View.Login
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_Login;
+                userType.Activator = Activate_46_Login;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  ErrorLog.View.NewEntry
+            case 47:   //  ErrorLog.View.NewEntry
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_46_NewEntry;
+                userType.Activator = Activate_47_NewEntry;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 47:   //  ErrorLog.View.PassportRegister
+            case 48:   //  ErrorLog.View.PassportRegister
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_47_PassportRegister;
+                userType.Activator = Activate_48_PassportRegister;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 48:   //  ErrorLog.View.SubmittedForm
+            case 49:   //  PassportLogin.View.Remedy
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_48_SubmittedForm;
+                userType.Activator = Activate_49_Remedy;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 49:   //  ErrorLog.View.UserSelection
+            case 50:   //  ErrorLog.View.SubmittedForm
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_49_UserSelection;
+                userType.Activator = Activate_50_SubmittedForm;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  ErrorLog.View.Welcome
+            case 51:   //  ErrorLog.View.UserSelection
                 userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_Welcome;
+                userType.Activator = Activate_51_UserSelection;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 52:   //  ErrorLog.View.Welcome
+                userType = new global::PassportLogin.ErrLogger_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_52_Welcome;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T13:53:30.451</Modified>
+      <Modified>2017-03-16T17:42:27.075</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\bin\x86\Debug\PassportLogin.exe">
       <PackagePath>entrypoint\PassportLogin.exe</PackagePath>
-      <Modified>2017-03-16T13:53:24.202</Modified>
+      <Modified>2017-03-16T17:42:26.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\param\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -500,7 +500,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\bin\x86\Debug\PassportLogin.xr.xml">
       <PackagePath>PassportLogin.xr.xml</PackagePath>
-      <Modified>2017-03-16T13:53:23.500</Modified>
+      <Modified>2017-03-16T17:30:46.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -525,11 +525,11 @@
     <AppxPackagedFile Include="C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T13:53:28.238</Modified>
+      <Modified>2017-03-16T17:33:42.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\param\Documents\Visual Studio 2015\Projects\PassportLogin\PassportLogin\bin\x86\Debug\Core\PassportLogin.exe">
       <PackagePath>PassportLogin.exe</PackagePath>
-      <Modified>2017-03-16T13:53:30.420</Modified>
+      <Modified>2017-03-16T17:42:27.071</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

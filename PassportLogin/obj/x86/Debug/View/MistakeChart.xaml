@@ -13,10 +13,10 @@
         <Grid.Resources>
             <CollectionViewSource x:ConnectionId='2' x:Name="KeyPhraseResultsCol"                                    IsSourceGrouped="False" />
         </Grid.Resources>
-        <Button x:ConnectionId='3' x:Name="btnKeyPhrase" Content="What Went Wrong?" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top"
+        <Button x:ConnectionId='3' x:Name="btnKeyPhrase" Content="What Went Wrong?" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top"
                                            RenderTransformOrigin="3.6,0.312" ToolTipService.ToolTip="Click"/>
 
-        <GridView x:ConnectionId='4' x:Name="gvKeyPhr" ItemsSource="{Binding Source={StaticResource KeyPhraseResultsCol}}" SelectionMode="None" IsItemClickEnabled="False" HorizontalAlignment="Left" Height="276" Margin="96,233,0,0" VerticalAlignment="Top" Width="1054">
+        <GridView x:ConnectionId='4' x:Name="gvKeyPhr" ItemsSource="{Binding Source={StaticResource KeyPhraseResultsCol}}" SelectionMode="None" IsItemClickEnabled="False" HorizontalAlignment="Left" Height="276" Margin="96,173,0,0" VerticalAlignment="Top" Width="1054">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <Border Background="AliceBlue" Width="330" Height="38" Margin="8">
@@ -38,6 +38,7 @@
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
+        
         <TextBlock x:ConnectionId='5' x:Name="Title" Text="NEW MISTAKES" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Top" 
                    TextAlignment="Center" Foreground="Red" FontWeight="Bold" Margin="0,30,0,0"/>
         <Charting:Chart x:ConnectionId='6' x:Name="ColumnChart" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="200"
@@ -54,7 +55,11 @@
             </Charting:PieSeries>
 
         </Charting:Chart>
-       
+        <Button x:ConnectionId='8' x:Name="button" Content="Back" HorizontalAlignment="Center" Margin="0,0,0,10" VerticalAlignment="Bottom"
+                Background="DodgerBlue" Foreground="White"                     />
+        <Button x:ConnectionId='9' x:Name="remedialbutton" Content="What can I do?" HorizontalAlignment="Center" Margin="0,450,0,0" 
+                VerticalAlignment="Top"                             />
+
     </Grid>
     
 </Page>

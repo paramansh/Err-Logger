@@ -16,16 +16,20 @@
             <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Center" Margin="0,60,0,10" TextWrapping="Wrap"
                        Text="Type of Mistake" VerticalAlignment="Top" Height="25" Width="125" FontWeight="Bold"/>
             <CheckBox x:ConnectionId='4' x:Name="conceptualcheckBox" Content="Conceptual" HorizontalAlignment="Center" Height="18"
-                      Margin="0,0,0,0"  Width="109"                                     />
-            <CheckBox x:ConnectionId='5' x:Name="sillycheckBox" Content="Silly" HorizontalAlignment="Center" Height="26"
-                      Margin="0,0,0,0"  Width="83"                                 RenderTransformOrigin="0.653,-1.398"/>
-            <CheckBox x:ConnectionId='6' x:Name="othercheckBox" Content="Other" HorizontalAlignment="Center" Height="26"
-                      Margin="0,0,0,0"  Width="83"                                 RenderTransformOrigin="0.653,-1.398"/>
-            <Button x:ConnectionId='7' x:Name="submitbutton" Content="Another One"  HorizontalAlignment="Center"
+                      Margin="0,0,0,0"  Width="183"                                     />
+            <CheckBox x:ConnectionId='5' x:Name="sillycheckBox" Content="Calculation Error" HorizontalAlignment="Center" Height="26"
+                      Margin="0,0,0,0"  Width="183"                                 RenderTransformOrigin="0.653,-1.398"/>
+            <CheckBox x:ConnectionId='6' x:Name="othercheckBox" Content="Careless Oversight" HorizontalAlignment="Center" Height="26"
+                      Margin="0,0,0,0"  Width="183"                                 RenderTransformOrigin="0.653,-1.398"/>
+            <CheckBox x:ConnectionId='7' x:Name="recallcheckBox" Content="Shortcoming in Recall" HorizontalAlignment="Center" Height="26"
+                      Margin="0,0,0,0"  Width="183"                                  RenderTransformOrigin="0.653,-1.398"/>
+            <CheckBox x:ConnectionId='8' x:Name="timecheckBox" Content="Time Constraint" HorizontalAlignment="Center" Height="26"
+                      Margin="0,0,0,0"  Width="183"                                RenderTransformOrigin="0.653,-1.398"/>
+            <Button x:ConnectionId='9' x:Name="submitbutton" Content="Another One"  HorizontalAlignment="Center"
                     Margin="0,40,0,0" Foreground="White" Background="DodgerBlue"                            FontSize="15"/>
-            <Button x:ConnectionId='8' x:Name="graphbutton" Content="Done for this test" HorizontalAlignment="Center"
+            <Button x:ConnectionId='10' x:Name="graphbutton" Content="Done for this test" HorizontalAlignment="Center"
                     Margin="0,30,0,0"                          />
-            <Button x:ConnectionId='9' x:Name="backButton" Content="Back" HorizontalAlignment="Center" Background="DodgerBlue"
+            <Button x:ConnectionId='11' x:Name="backButton" Content="Back" HorizontalAlignment="Center" Background="DodgerBlue"
                     Margin="0,30,0,0" VerticalAlignment="Top"                          Foreground="White"/>
         </StackPanel>
         

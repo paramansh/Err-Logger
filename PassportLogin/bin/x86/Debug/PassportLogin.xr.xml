@@ -29,6 +29,7 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="ErrorLog.MainPage" />
+    <RootType FullName="PassportLogin.Models.BlankPage2" />
     <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
       <RootProperty Name="Source" />
       <RootProperty Name="IsSourceGrouped" />
@@ -149,6 +150,7 @@
     </RootType>
     <RootType FullName="ErrorLog.View.NewEntry" />
     <RootType FullName="ErrorLog.View.PassportRegister" />
+    <RootType FullName="PassportLogin.View.Remedy" />
     <RootType FullName="ErrorLog.View.SubmittedForm" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />

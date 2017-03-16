@@ -1,9 +1,11 @@
 App.xbf
 MainPage.xbf
+Models\BlankPage2.xbf
 View\Login.xbf
 View\MistakeChart.xbf
 View\NewEntry.xbf
 View\PassportRegister.xbf
+View\Remedy.xbf
 View\SubmittedForm.xbf
 View\UserSelection.xbf
 View\Welcome.xbf

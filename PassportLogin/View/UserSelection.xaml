@@ -23,6 +23,6 @@
             <Button x:Name="AddUserButton" Content="+" FontSize="36" Width="60" Click="AddUserButton_Click" HorizontalAlignment="Center"/>
             
         </StackPanel>
-        <Button x:Name="BackButton" Content="Back to Login Page" FontSize="24"  Click="BackButton_Click" HorizontalAlignment="Center"/>
+        <Button x:Name="BackButton" Content="Back to Login Page" FontSize="20"  Click="BackButton_Click" HorizontalAlignment="Center"/>
     </Grid>
 </Page>

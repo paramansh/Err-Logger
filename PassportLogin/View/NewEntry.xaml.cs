@@ -82,12 +82,40 @@ namespace ErrorLog.View
         }
 
     }
+    public static class GlobalsRcl
+    {
+        // parameterless constructor required for static class
+        static GlobalsRcl() { GlobalInt = 0; } // default value
+
+        // public get, and private set for strict access control
+        public static int GlobalInt { get; private set; }
+        public static void SetGlobalInt(int newInt)
+        {
+            GlobalInt = newInt;
+        }
+
+    }
+    public static class GlobalsTime
+    {
+        // parameterless constructor required for static class
+        static GlobalsTime() { GlobalInt = 0; } // default value
+
+        // public get, and private set for strict access control
+        public static int GlobalInt { get; private set; }
+        public static void SetGlobalInt(int newInt)
+        {
+            GlobalInt = newInt;
+        }
+
+    }
 
     public sealed partial class NewEntry : Page
     {
         int conceptualMist = 0;
         int sillyMist = 0;
         int otherMist = 0;
+        int recallMist = 0;
+        int timeMist = 0;
         string checkString = "";
         string str = "";
         public NewEntry()
@@ -139,6 +167,20 @@ namespace ErrorLog.View
             sillyMist=GlobalsSil.GlobalInt;
             sillyMist++;
             GlobalsSil.SetGlobalInt(sillyMist);
+        }
+
+        private void recallcheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            recallMist = GlobalsRcl.GlobalInt;
+            recallMist++;
+            GlobalsRcl.SetGlobalInt(recallMist);
+        }
+
+        private void timecheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            timeMist = GlobalsTime.GlobalInt;
+            timeMist++;
+            GlobalsTime.SetGlobalInt(timeMist);
         }
     }
 

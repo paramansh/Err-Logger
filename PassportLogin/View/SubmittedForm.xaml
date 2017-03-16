@@ -8,7 +8,27 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="anotherbutton" Content="Submit Another" HorizontalAlignment="Left" Margin="183,106,0,0" VerticalAlignment="Top" Click="anotherbutton_Click"/>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+            <StackPanel Orientation="Vertical" Margin="0,20,0,0">
+                <TextBlock x:Name="Title" Text="Remidial Measures" FontSize="40" TextAlignment="Center" Foreground="Red" 
+                        FontWeight="Bold" />
+                <Button x:Name="Conceptual" Content="Conceptual Shortcoming" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10" Click="Conceptual_Click"/>
+                <Button x:Name="Calculation" Content="Calculation Error" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10" Click="Calculation_Click"/>
+                <Button x:Name="Careless" Content="Careless Oversight" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10" Click="Careless_Click"/>
+                <Button x:Name="Recall" Content="Shortcoming in Recall" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10" Click="Recall_Click"/>
+                <Button x:Name="Time" Content="Time Constraint" Background="DodgerBlue" Foreground="White"
+         Width="180" HorizontalAlignment="Center" Margin="0,10" Click="Time_Click"/>
+                <TextBlock x:Name="Solution" Text=""  TextAlignment="Center"  
+                        Margin="0,20" />
+            </StackPanel>
+
+
+        </Grid>
 
     </Grid>
 </Page>

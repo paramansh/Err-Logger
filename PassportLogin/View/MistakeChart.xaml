@@ -13,10 +13,10 @@
         <Grid.Resources>
             <CollectionViewSource x:Name="KeyPhraseResultsCol" Source="{x:Bind KeyPharseResults}" IsSourceGrouped="False" />
         </Grid.Resources>
-        <Button x:Name="btnKeyPhrase" Content="What Went Wrong?" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top"
+        <Button x:Name="btnKeyPhrase" Content="What Went Wrong?" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top"
                 Click="btnKeyPhrase_Click" RenderTransformOrigin="3.6,0.312" ToolTipService.ToolTip="Click"/>
 
-        <GridView x:Name="gvKeyPhr" ItemsSource="{Binding Source={StaticResource KeyPhraseResultsCol}}" SelectionMode="None" IsItemClickEnabled="False" HorizontalAlignment="Left" Height="276" Margin="96,233,0,0" VerticalAlignment="Top" Width="1054">
+        <GridView x:Name="gvKeyPhr" ItemsSource="{Binding Source={StaticResource KeyPhraseResultsCol}}" SelectionMode="None" IsItemClickEnabled="False" HorizontalAlignment="Left" Height="276" Margin="96,173,0,0" VerticalAlignment="Top" Width="1054">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <Border Background="AliceBlue" Width="330" Height="38" Margin="8">
@@ -38,6 +38,7 @@
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
+        
         <TextBlock x:Name="Title" Text="NEW MISTAKES" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Top" 
                    TextAlignment="Center" Foreground="Red" FontWeight="Bold" Margin="0,30,0,0"/>
         <Charting:Chart x:Name="ColumnChart" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="200"
@@ -54,7 +55,11 @@
             </Charting:PieSeries>
 
         </Charting:Chart>
-       
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Center" Margin="0,0,0,10" VerticalAlignment="Bottom"
+                Background="DodgerBlue" Foreground="White" Click="button_Click"/>
+        <Button x:Name="remedialbutton" Content="What can I do?" HorizontalAlignment="Center" Margin="0,450,0,0" 
+                VerticalAlignment="Top" Click="remedialbutton_Click"/>
+
     </Grid>
     
 </Page>
